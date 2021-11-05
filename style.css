@@ -1,0 +1,113 @@
+header {
+  /* width: 1905px; */
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header-img {
+  height: 57px;
+  margin-left: 20px;
+  margin-top: 37px;
+  margin-bottom: 22px;
+}
+
+.card-set {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* columns: 50px 2; */
+  /* display: flex; */
+  width: 730px;
+  margin-left: -20px;
+  margin-top: 40px;
+  /* margin-right: 20px; */
+}
+
+.card-item:hover {
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
+.card-item {
+  margin-right: 20px;
+  margin-bottom: 15px;
+  width: 930px;
+  height: 446px;
+  background: #ffffff;
+  /* box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15); */
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.r {
+  float: right;
+}
+
+.card-name {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 47px;
+  margin: 0 auto;
+  padding-left: 57px;
+  padding-top: 47px;
+  padding-bottom: 19px;
+}
+
+.des {
+  font-size: 44px;
+  display: inline-block;
+  padding: 0;
+  margin-left: 20px;
+  margin-top: 114px;
+  margin-bottom: 79px;
+}
+
+.line {
+  margin-left: 58px;
+  width: 397px;
+  border: 1px solid #e0e0e0;
+  float: left;
+  /* margin-top: 19px; */
+  /* margin-bottom: 34px; */
+}
+
+.card-instruction {
+  display: block;
+  float: left;
+}
+
+.card {
+  margin-left: 57px;
+  margin-top: 34px;
+  margin-bottom: 30px;
+}
+
+.card-item-p {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 21px;
+  font-style: normal;
+  font-weight: normal;
+  color: #31b447;
+  text-decoration: none;
+}
+
+.card-down-img {
+  display: flex;
+  padding-left: 0px;
+  margin-left: 58px;
+  margin-top: 20px;
+  float: left;
+}
+
+.card-down-item {
+  padding-right: 15px;
+}
+
+.card-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
