@@ -1,5 +1,4 @@
 header {
-  /* width: 1905px; */
   background: #ffffff;
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
 }
@@ -16,8 +15,8 @@ ul {
 }
 
 .card-set {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
   /* columns: 50px 2; */
   /* display: flex; */
   width: 730px;
@@ -35,8 +34,6 @@ ul {
   width: 930px;
   height: 446px;
   background: #ffffff;
-  /* box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15); */
-  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 
 .r {
@@ -68,8 +65,6 @@ ul {
   width: 397px;
   border: 1px solid #e0e0e0;
   float: left;
-  /* margin-top: 19px; */
-  /* margin-bottom: 34px; */
 }
 
 .card-instruction {
@@ -110,4 +105,29 @@ ul {
   max-width: 100%;
   height: auto;
   float: right;
+}
+
+@media (max-width: 480px) {
+  .header {
+    /* display: flex;
+    justify-content: space-between;
+    width: 100%; */
+    width: 945px;
+    background: #ffffff;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  }
+  .card-set {
+    display: grid;
+  }
+  .card-item {
+    width: 480px;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1950px) {
+  .card-set {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
