@@ -113,14 +113,14 @@ ul {
     /* Убирает прокрутку по горизонтале, для мобильной версии */
     overflow-x: hidden;
   }
-  .header {
+  /* .header {
     /* display: flex;
     justify-content: space-between;
     width: 100%; */
-    /* width: 945px; */
-    background: #ffffff;
+  /* width: 945px; */
+  /* background: #ffffff;
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
-  }
+  } */
   .card-set {
     display: grid;
   }
@@ -141,6 +141,9 @@ ul {
 }
 
 @media (min-width: 768px) and (max-width: 1950px) {
+  header {
+    width: 1900px;
+  }
   .card-set {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
