@@ -60,12 +60,12 @@ ul {
   margin-bottom: 79px;
 }
 
-.line {
+/* .line {
   margin-left: 58px;
   width: 397px;
   border: 1px solid #e0e0e0;
   float: left;
-}
+} */
 
 .card-instruction {
   display: block;
@@ -120,8 +120,18 @@ ul {
     display: grid;
   }
   .card-item {
-    width: 480px;
+    width: 460px;
+    margin-left: -11px;
     height: auto;
+  }
+  .line {
+    margin-left: 0px;
+    width: 460px;
+    border: 1px solid #e0e0e0;
+    float: left;
+  }
+  .card-down-img {
+    margin-left: 83px;
   }
 }
 
@@ -129,5 +139,11 @@ ul {
   .card-set {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .line {
+    margin-left: 58px;
+    width: 397px;
+    border: 1px solid #e0e0e0;
+    float: left;
   }
 }
